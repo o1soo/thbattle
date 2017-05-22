@@ -5,9 +5,9 @@ from __future__ import absolute_import
 # -- third party --
 # -- own --
 from game.autoenv import EventHandler, Game, GameException, user_input
-from thb.actions import BaseActionStage, ActiveDropCards, DrawCards, DropCards, GenericAction, LifeLost
-from thb.actions import MaxLifeChange, PrepareStage, Reforge, UserAction, migrate_cards
-from thb.actions import random_choose_card, ttags, user_choose_cards
+from thb.actions import ActionStage, ActiveDropCards, BaseActionStage, DrawCards, DropCards
+from thb.actions import GenericAction, LifeLost, MaxLifeChange, PrepareStage, Reforge, UserAction
+from thb.actions import migrate_cards, random_choose_card, ttags, user_choose_cards
 from thb.cards import Card, Heal, PhysicalCard, Skill, VirtualCard, t_None, t_OtherOne
 from thb.characters.baseclasses import Character, register_character_to
 from thb.inputlets import ChooseOptionInputlet
